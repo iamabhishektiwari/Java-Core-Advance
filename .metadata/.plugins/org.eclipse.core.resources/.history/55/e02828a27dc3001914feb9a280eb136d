@@ -1,0 +1,9 @@
+package com.abhishek.func;
+
+public class Account {
+	private int accno;
+	private String name;
+	private float bal;
+	
+
+}

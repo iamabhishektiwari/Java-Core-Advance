@@ -1,0 +1,49 @@
+package com.abhishek.func;
+
+public class Account {
+	private int accno;
+	private String name;
+	private float bal;
+	
+	public int getAccno() {
+		return accno;
+	}
+	public void setAccno(int accno) {
+		this.accno = accno;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public float getBal() {
+		return bal;
+	}
+	public void setBal(float bal) {
+		this.bal = bal;
+	}
+	public Account() {
+		super();
+	}
+	public Account(int accno, String name, float bal) {
+		super();
+		this.accno = accno;
+		this.name = name;
+		this.bal = bal;
+	}
+	public void display() {
+		System.out.println("Account number is: "+accno);
+		System.out.println("Account Holder's Name is: "+name);
+		System.out.println("Account balance is: "+bal);		
+	}
+	public void withdraw(float amt) {
+		bal -= amt;
+	}
+	public void deposit(float amt) {
+		bal += amt;
+	}
+	public void checkBal() {
+		System.out.println("Account balance is: "+bal);	
+	}
+}

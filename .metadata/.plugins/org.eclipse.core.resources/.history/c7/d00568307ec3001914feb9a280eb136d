@@ -1,0 +1,30 @@
+package com.abhishek.func;
+
+public class SavingAccount extends Account{
+	private float minbal;
+
+	public float getMinbal() {
+		return minbal;
+	}
+
+	public void setMinbal(float minbal) {
+		this.minbal = minbal;
+	}
+
+	public SavingAccount(float minbal) {
+		super();
+		this.minbal = minbal;
+	}
+
+	public SavingAccount() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public SavingAccount(int accno, String name, float bal) {
+		super(accno, name, bal);
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

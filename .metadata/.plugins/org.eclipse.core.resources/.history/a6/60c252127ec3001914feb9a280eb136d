@@ -1,0 +1,6 @@
+package com.abhishek.func;
+
+public class SavingAccount extends Account{
+	private float minbal;
+
+}

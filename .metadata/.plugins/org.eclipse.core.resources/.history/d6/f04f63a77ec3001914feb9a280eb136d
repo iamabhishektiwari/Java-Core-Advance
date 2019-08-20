@@ -1,0 +1,35 @@
+package com.abhishek.func;
+
+public class Account {
+	private int accno;
+	private String name;
+	private float bal;
+	
+	public int getAccno() {
+		return accno;
+	}
+	public void setAccno(int accno) {
+		this.accno = accno;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public float getBal() {
+		return bal;
+	}
+	public void setBal(float bal) {
+		this.bal = bal;
+	}
+	public Account() {
+		super();
+	}
+	public Account(int accno, String name, float bal) {
+		super();
+		this.accno = accno;
+		this.name = name;
+		this.bal = bal;
+	}
+}
