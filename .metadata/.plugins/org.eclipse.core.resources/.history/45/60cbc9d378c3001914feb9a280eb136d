@@ -1,0 +1,5 @@
+package com.abhishek.func;
+
+public interface Calculator1 {
+
+}

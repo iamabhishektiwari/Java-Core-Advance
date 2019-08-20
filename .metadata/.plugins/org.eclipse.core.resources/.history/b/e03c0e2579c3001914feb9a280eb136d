@@ -1,0 +1,7 @@
+package com.abhishek.func;
+
+public interface Calculator {
+	public float add(float a,float b);
+	
+
+}

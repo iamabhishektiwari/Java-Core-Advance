@@ -1,0 +1,20 @@
+package com.abhishek.app;
+
+import java.util.Scanner;
+
+import com.abhishek.func.CalculatorImpl;
+
+public class Calculator extends CalculatorImpl{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the two numbers");
+		float a = sc.nextFloat();
+		float b = sc.nextFloat();
+		
+		while(true) {
+			System.out.println("Option:\n 1 for addition\n 2 for substraction\n 3 for multiplication\n 4 for division");
+			break;
+		}
+	}
+
+}
